@@ -1,0 +1,6 @@
+@EndUserText.label: '生产计划表'
+define service ZUI_C_pp004_O4 {
+  expose ZC_RPP004;
+  expose ZC_RPP004_MfgOrder;
+  expose ZC_RPP004_PlannedOrder;
+}

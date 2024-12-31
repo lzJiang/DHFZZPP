@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "",
+    "originalLanguage": "zh",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZZ_JCE_PP001"
+  },
+  "parameters": {
+    "valueRangesParameters": [
+      {
+        "name": "AUFNR",
+        "valueRanges": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>流程订单保存前检查（弃用）</SHORTTEXT>
+   <SPOT_NAME>ES_COBADICFL_MFGORDER</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>ES_COBADICFL_MFGORDER</SPOT_NAME>
+     <BADI_NAME>BD_MFGORDER_CHECK_BEFORE_SAVE</BADI_NAME>
+     <IMPL_NAME>ZIMP_ORDER_CHECK_BEFORE_SAVE</IMPL_NAME>
+     <IMPL_CLASS>ZCL_GORDER_CHECK_BEFORE_SAVE</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <LOCKED_IN_CUSTOMIZING>X</LOCKED_IN_CUSTOMIZING>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,16 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "生产订单状态变更推送WMS目录",
+    "originalLanguage": "zh",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "ZZCL_JOB_PP003"
+  },
+  "parameters": [
+    {
+      "name": "AUFNR"
+    }
+  ]
+}

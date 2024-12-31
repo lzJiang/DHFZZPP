@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "生产订单状态变更推送WMS",
+    "originalLanguage": "zh",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZZ_JCE_PP003"
+  },
+  "parameters": {
+    "valueRangesParameters": [
+      {
+        "name": "AUFNR",
+        "valueRanges": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+managed implementation in class ZBP_R_ZT_PP_003 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_ZT_PP_003 alias ZrZtPp003
+persistent table ZZT_PP_003
+draft table ZZT_PP_003_D
+etag master LastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Storagelocation;
+
+  field ( readonly )
+   CreatedBy,
+   CreatedAt,
+   LastChangedBy,
+   LastChangedAt;
+
+  field ( readonly : update )
+   Storagelocation;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZZT_PP_003
+  {
+    Storagelocation = storagelocation;
+    Zcj = zcj;
+    Zcjtext = zcjtext;
+    CreatedBy = created_by;
+    CreatedAt = created_at;
+    LastChangedBy = last_changed_by;
+    LastChangedAt = last_changed_at;
+  }
+}

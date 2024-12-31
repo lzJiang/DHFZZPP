@@ -1,0 +1,105 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Storagelocation'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Storagelocation'
+annotate view ZC_ZT_PP_003 with
+{
+  @UI.facet: [ {
+    label: '常规信息',
+    id: 'GeneralInfo',
+    purpose: #STANDARD,
+    position: 10 ,
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 ,
+    label: '线边仓'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 ,
+    label: '线边仓'
+  } ]
+  @UI.selectionField: [ {
+    position: 10
+  } ]
+  Storagelocation;
+
+  @UI.identification: [ {
+    position: 20 ,
+    label: '车间'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 ,
+    label: '车间'
+  } ]
+  @UI.selectionField: [ {
+    position: 20
+  } ]
+  Zcj;
+
+  @UI.identification: [ {
+      position: 25 ,
+      label: '车间描述'
+    } ]
+  @UI.lineItem: [ {
+    position: 25 ,
+    label: '车间描述'
+  } ]
+  @UI.selectionField: [ {
+    position: 25
+  } ]
+  Zcjtext;
+
+  @UI.identification: [ {
+    position: 30 ,
+    label: '创建人'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 ,
+    label: '创建人'
+  } ]
+  @UI.selectionField: [ {
+    position: 30
+  } ]
+  createdby;
+
+  @UI.identification: [ {
+    position: 40 ,
+    label: '创建时间'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 ,
+    label: '创建时间'
+  } ]
+  @UI.selectionField: [ {
+    position: 40
+  } ]
+  CreatedAt;
+
+  @UI.identification: [ {
+    position: 50 ,
+    label: '更改人'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 ,
+    label: '更改人'
+  } ]
+  @UI.selectionField: [ {
+    position: 50
+  } ]
+  LastChangedBy;
+
+  @UI.identification: [ {
+    position: 60 ,
+    label: '更改时间'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 ,
+    label: '更改时间'
+  } ]
+  @UI.selectionField: [ {
+    position: 60
+  } ]
+  LastChangedAt;
+}

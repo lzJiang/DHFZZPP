@@ -1,0 +1,14 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "生产订单状态变更推送WMS日志对象",
+    "originalLanguage": "zh",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "subobjects": [
+    {
+      "name": "ZZAL_PP_0001_SUB1",
+      "description": "生产订单状态变更推送WMS日志子对象"
+    }
+  ]
+}
